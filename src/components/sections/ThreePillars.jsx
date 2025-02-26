@@ -9,7 +9,7 @@ export default function ThreePillars() {
     {
       id: 1,
       title: "Strength",
-      image: "/images/Strength.webp",
+      image: "/images/strength.webp",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed urna eu elit commodo.",
     },
