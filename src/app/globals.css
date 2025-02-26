@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Cinzel";
+  src: url("../../public/fonts/Cinzel/Cinzel-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Lora";
+  src: url("../../public/fonts/Lora/Lora-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("../../public/fonts/Oswald/Oswald-VariableFont_wght.ttf");
+}
+
+:root {
+  --color-primary: #1b1f3b;
+  --color-secondary: #a31515;
+  --color-bg: #0e0f19;
+  --color-text: #f5f5f5;
+  --color-accent: #d4af37;
+}
+
+body {
+  color: var(--color-text);
+  background: var(--color-bg);
+  font-family: "Lora";
+}
